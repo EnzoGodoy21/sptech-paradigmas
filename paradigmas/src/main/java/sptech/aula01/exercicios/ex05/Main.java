@@ -4,6 +4,17 @@ public class Main {
     public static void main(String[] args) {
         int[] vetor = {7,3,2,3};
         System.out.println(contaOccorencias(vetor, 0, 0, 3));        
+        System.out.println(contaOccorencias(vetor, 3));        
+    }
+
+    public static int contaOccorencias(int[] vetor, int num){
+        int ocurrencies = 0;
+        for (int i : vetor) {
+            if(i == num){
+                ocurrencies++;
+            }
+        }
+        return ocurrencies;
     }
 
     public static int contaOccorencias(int[] vetor, int i, int ocurrencies, int num){
