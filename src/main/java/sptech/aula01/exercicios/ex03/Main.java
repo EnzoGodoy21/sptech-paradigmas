@@ -2,7 +2,7 @@ package sptech.aula01.exercicios.ex03;
 
 public class Main {
     public static void main(String[] args) {
-        int[] vetor = { 7, 5, 3, 2 , 4, 8};
+        int[] vetor = { 3,4,7,9,2};
         System.out.println(somaParesVetor(vetor, 0));
         System.out.println(somaParesVetor(vetor));
     }
