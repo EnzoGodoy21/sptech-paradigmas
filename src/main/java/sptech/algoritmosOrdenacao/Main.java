@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] data = { 6, 13, 10, 7, 9, 18, 5, 11, 18, 5 };
+        int[] data = { 6, 13, 10, 4, 4, 18, 5, 11, 18, 5 };
         // insertSort(data);
         // mergeSort(data,0,data.length);
         // quickSort(data);
