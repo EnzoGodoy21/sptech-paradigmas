@@ -29,15 +29,14 @@ public class DuasPilhas<T> {
                 default:
                     throw new IllegalArgumentException("Stack must be 1 or 2");
             }
-        }
-        else{
+        } else {
             throw new IllegalStateException("Stack is full");
         }
     }
 
     public T pop(int stack) {
-        if(isEmpty(stack)){
-           throw new IllegalStateException("Stack is empty"); 
+        if (isEmpty(stack)) {
+            throw new IllegalStateException("Stack is empty");
         }
         switch (stack) {
             case 1:
@@ -51,13 +50,16 @@ public class DuasPilhas<T> {
         }
     }
 
-    public T peek(int stack){
+    public T peek(int stack) {
         switch (stack) {
-            case  7 :
+            case 1:
                 
                 break;
-        
+            case 2:
+
+                break;
             default:
+
                 break;
         }
     }
@@ -83,9 +85,9 @@ public class DuasPilhas<T> {
         return this.stack.length;
     }
 
-    public void show(){
+    public void show() {
         for (T t : stack) {
-            System.out.println(t);   
+            System.out.println(t);
         }
     }
 }
