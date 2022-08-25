@@ -53,14 +53,11 @@ public class DuasPilhas<T> {
     public T peek(int stack) {
         switch (stack) {
             case 1:
-                
-                break;
+                return this.stack[top1];
             case 2:
-
-                break;
+                return this.stack[top2];
             default:
-
-                break;
+                throw new IllegalArgumentException("Stack must be 1 or 2");
         }
     }
 
