@@ -1,8 +1,8 @@
-package sptech.aula03.ex01;
+package sptech.DoubleStack;
 
 public class Main {
     public static void main(String[] args) {
-        DuasPilhas stack = new DuasPilhas<>(6);
+        DoubleStack stack = new DoubleStack<>(6);
         int[] array = { 1, -5, 3, 7, -10, -1 };
         for (int i : array) {
             if (i < 0) {

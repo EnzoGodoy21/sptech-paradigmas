@@ -1,17 +1,17 @@
-package sptech.aula03.ex01;
+package sptech.DoubleStack;
 
-public class DuasPilhas<T> {
+public class DoubleStack<T> {
     private T[] stack;
     private int top1;
     private int top2;
 
-    public DuasPilhas(int length) {
+    public DoubleStack(int length) {
         this.stack = (T[]) new Object[length];
         this.top1 = -1;
         this.top2 = length;
     }
 
-    public DuasPilhas() {
+    public DoubleStack() {
         this.stack = (T[]) new Object[10];
     }
 
